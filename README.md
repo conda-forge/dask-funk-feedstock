@@ -15,6 +15,19 @@ as dictionaries. It is inspired by Plumatic's wonderful Graph library
 for clojure.
 
 
+Current build status
+====================
+
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dask-funk-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dask-funk-feedstock)
+
+Current release info
+====================
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dask--funk-green.svg)](https://anaconda.org/conda-forge/dask-funk) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask-funk.svg)](https://anaconda.org/conda-forge/dask-funk) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask-funk.svg)](https://anaconda.org/conda-forge/dask-funk) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask-funk.svg)](https://anaconda.org/conda-forge/dask-funk) |
+
 Installing dask-funk
 ====================
 
@@ -35,7 +48,6 @@ It is possible to list all of the versions of `dask-funk` available on your plat
 ```
 conda search dask-funk --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -59,6 +71,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -71,18 +84,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dask-funk-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dask-funk-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dask-funk-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dask-funk-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dask-funk-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dask-funk-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-funk/badges/version.svg)](https://anaconda.org/conda-forge/dask-funk)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-funk/badges/downloads.svg)](https://anaconda.org/conda-forge/dask-funk)
 
 
 Updating dask-funk-feedstock
