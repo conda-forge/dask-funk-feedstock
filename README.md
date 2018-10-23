@@ -1,7 +1,7 @@
 About dask-funk
 ===============
 
-Home: https://github.com/Savvysherpa/dask-funk
+Home: https://github.com/bmabey/dask-funk
 
 Package license: MIT
 

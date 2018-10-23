@@ -32,7 +32,7 @@ test:
     - daskfunk
 
 about:
-  home: https://github.com/Savvysherpa/dask-funk
+  home: https://github.com/bmabey/dask-funk
   license_family: MIT
   license: MIT
   license_file: LICENSE.txt
@@ -42,8 +42,8 @@ about:
     functions (hence the funk!) from dasks or function graphs represented
     as dictionaries. It is inspired by Plumatic's wonderful Graph library
     for clojure.
-  doc_url: https://github.com/Savvysherpa/dask-funk
-  dev_url: https://github.com/Savvysherpa/dask-funk
+  doc_url: https://github.com/bmabey/dask-funk
+  dev_url: https://github.com/bmabey/dask-funk
 
 extra:
   recipe-maintainers:
